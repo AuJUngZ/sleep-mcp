@@ -2,14 +2,7 @@
 
 <img src="assets/sleep-logo.png" width="256" alt="Sleep MCP Logo" />
 
-A Model Context Protocol (MCP) server that provides a simple sleep/wait functionality. Useful for adding delays between operations, such as waiting between API calls or testing eventually consistent systems.
-
-## Features
-
-- Add configurable delays in milliseconds
-- No upper limit on wait duration
-- Simple, reliable operation
-- No configuration or API keys needed
+A Model Context Protocol (MCP) server that provides a simple sleep/wait tool. Useful for adding delays between operations, such as waiting between API calls or testing eventually consistent systems.
 
 ## Available Tools
 
