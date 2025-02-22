@@ -1,6 +1,6 @@
 # Sleep MCP Server
 
-<img src="assets/sleep-logo.png" width="256" alt="Sleep MCP Logo" />
+<img src="assets/sleep-server.png" width="256" alt="Sleep MCP Logo" />
 
 A Model Context Protocol (MCP) server that provides a simple sleep/wait tool. Useful for adding delays between operations, such as waiting between API calls or testing eventually consistent systems.
 
