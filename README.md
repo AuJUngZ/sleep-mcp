@@ -11,7 +11,7 @@ A Model Context Protocol (MCP) server that provides a simple sleep/wait tool. Us
 ## Installation
 
 ```bash
-git clone [repository-url]
+git clone https://github.com/Garoth/sleep-mcp.git
 npm install
 ```
 
