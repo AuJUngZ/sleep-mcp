@@ -26,11 +26,14 @@ Add to your Cline MCP settings file (ex. ~/.config/Code/User/globalStorage/saoud
       "command": "node",
       "args": ["/path/to/sleep-server/build/index.js"],
       "disabled": false,
-      "autoApprove": []
+      "autoApprove": [],
+      "timeout": 300
     }
   }
 }
 ```
+
+> **Note:** The `timeout` parameter specifies the maximum time (in milliseconds) that the MCP server will wait for a response before timing out. This is particularly important for the sleep tool, as setting a timeout that's shorter than your sleep duration will cause the operation to fail. Make sure your timeout value is always greater than the maximum sleep duration you plan to use.
 
 ## Development
 
